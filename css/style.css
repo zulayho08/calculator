@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 220px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow-x: hidden;
+  color: #ffff;
+  background-color: rgb(0, 0, 255);
+  display: block;
+}
+
+.wrapp {
+  /* margin: 0 auto; */
+  margin-left: 20px;
+}
+
+select {
+  border: 2px solid rgb(71, 139, 249);
+  border-radius: 3px;
+  color: blue;
+  font-size: 20px;
+}
+
+option {
+  font-size: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  border: 2px solid rgb(71, 139, 249);
+  border-radius: 3px;
+}
+
+button {
+  transform: translateX(50px);
+  position: absolute;
+  height: 25px;
+  border-radius: 3px;
+  color: #ffff;
+  background-color: rgb(71, 139, 249);
+  border: 2px solid rgb(66, 132, 239);
+}
+
+#result {
+  display: none;
+  padding-left: 20px;
+}
